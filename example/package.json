@@ -1,5 +1,5 @@
 {
 	"dependencies": {
-		"@nicolasflamel/mwc-pay": "^0.0.1"
+		"@nicolasflamel/mwc-pay": "^0.0.2"
 	}
 }
