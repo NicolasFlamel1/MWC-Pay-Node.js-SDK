@@ -144,7 +144,7 @@ class MwcPay {
 		
 			// Return false
 			return false;
-		} 
+		}
 		
 		// Return payment info's payment ID, URL, and recipient payment proof address
 		return {
@@ -225,7 +225,7 @@ class MwcPay {
 		
 			// Return false
 			return false;
-		} 
+		}
 		
 		// Return payment info's URL, price, required confirmations, received, confirmations, time remaining, status, and recipient payment proof address
 		return {
@@ -308,7 +308,7 @@ class MwcPay {
 		
 			// Return false
 			return false;
-		} 
+		}
 		
 		// Return price
 		return price["price"];
@@ -366,7 +366,7 @@ class MwcPay {
 		
 			// Return false
 			return false;
-		} 
+		}
 		
 		// Return public server info's URL and Onion Service address
 		return {
