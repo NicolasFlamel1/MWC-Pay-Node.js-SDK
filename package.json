@@ -1,0 +1,27 @@
+{
+	"name": "@nicolasflamel/mwc-pay",
+	"version": "0.0.1",
+	"description": "Node.js SDK for MWC Pay",
+	"main": "./src/MwcPay.js",
+	"files": [
+		"src/*"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NicolasFlamel1/MWC-Pay-Node.js-SDK.git"
+	},
+	"keywords": [
+		"MWC Pay",
+		"MWC",
+		"MimbleWimble Coin",
+		"Mimblewimble",
+		"Payment Processor",
+		"Cryptocurrency",
+		"Crypto"
+	],
+	"author": "Nicolas Flamel",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/NicolasFlamel1/MWC-Pay-Node.js-SDK/issues"
+	}
+}
