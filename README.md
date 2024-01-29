@@ -15,7 +15,7 @@ After an `MwcPay` object has been created, it can be used to create payments, qu
 A high level overview of a payment's life cycle when using this SDK consists of the following steps:
 1. The merchant creates a payment and gets the payment's URL from the response.
 2. The buyer sends MimbleWimble Coin to that URL.
-3. The merchant can optionally monitor the payment's status via the `getPaymentInfo` method, the `createPayment` method's `received_callback` parameter, the `createPayment` method's `confirmed_callback` parameter, and/or the `createPayment` method's `expired_callback` parameter.
+3. The merchant can optionally monitor the payment's status via the `getPaymentInfo` method, the `createPayment` method's `receivedCallback` parameter, the `createPayment` method's `confirmedCallback` parameter, and/or the `createPayment` method's `expiredCallback` parameter.
 4. The payment's completed callback is ran once the payment achieves the desired number of on-chain confirmations.
 
 The following code briefly shows how to use this SDK. A more complete example with error checking is available [here](https://github.com/NicolasFlamel1/MWC-Pay-Node.js-SDK/tree/master/example).
