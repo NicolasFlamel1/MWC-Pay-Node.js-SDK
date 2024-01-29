@@ -1,6 +1,6 @@
 {
 	"name": "@nicolasflamel/mwc-pay",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"description": "Node.js SDK for MWC Pay",
 	"main": "./src/MwcPay.js",
 	"files": [
@@ -23,5 +23,8 @@
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/NicolasFlamel1/MWC-Pay-Node.js-SDK/issues"
+	},
+	"engines": {
+		"node" : ">=18.0.0"
 	}
 }
